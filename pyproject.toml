@@ -1,0 +1,18 @@
+[project]
+name = "d2r-charactersheet"
+version = "0.1.0"
+description = "Simple diablo2 character creator"
+authors = [
+    {name = "Piotr Ludewicz",email = "piotr.ludewicz@gmail.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = "3.12.8"
+dependencies = [
+    "fastapi (>=0.115.12,<0.116.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
