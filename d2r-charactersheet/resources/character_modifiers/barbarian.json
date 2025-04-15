@@ -1,0 +1,16 @@
+{"Barbarian" : {
+        "class_name": "Barbarian",
+        "starting_strength": 30,
+        "starting_dexterity": 20,
+        "starting_vitality": 25,
+        "starting_energy": 10,
+        "starting_life": 55,
+        "starting_mana": 10,
+        "starting_stamina": 92,
+        "life_per_level": 2,
+        "mana_per_level": 1,
+        "stamina_per_level": 1,
+        "life_per_vitality": 4,
+        "stamina_per_vitality": 1,
+        "mana_per_energy": 1
+    }}

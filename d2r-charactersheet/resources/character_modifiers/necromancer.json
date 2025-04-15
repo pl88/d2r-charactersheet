@@ -1,0 +1,16 @@
+{    "Necromancer" : {
+    "class_name": "Necromancer",
+    "starting_strength": 15,
+    "starting_dexterity": 25,
+    "starting_vitality": 21,
+    "starting_energy": 25,
+    "starting_life": 45,
+    "starting_mana": 25,
+    "starting_stamina": 79,
+    "starting_life_per_level": 1.5,
+    "starting_mana_per_level": 2,
+    "starting_stamina_per_level": 1,
+    "starting_life_per_vitality": 2,
+    "stamina_per_vitality": 1,
+    "starting_mana_per_energy": 2
+}}

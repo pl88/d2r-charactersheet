@@ -1,0 +1,16 @@
+{"Amazon" : {
+        "class_name": "Amazon",
+        "starting_strength": 20,
+        "starting_dexterity": 25,
+        "starting_vitality": 20,
+        "starting_energy": 15,
+        "starting_life": 50,
+        "starting_mana": 15,
+        "starting_stamina": 84,
+        "life_per_level": 2,
+        "mana_per_level": 1.5,
+        "stamina_per_level": 1,
+        "life_per_vitality": 3,
+        "stamina_per_vitality": 1,
+        "mana_per_energy": 1.5
+    }}

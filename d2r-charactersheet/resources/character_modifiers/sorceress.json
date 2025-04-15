@@ -1,0 +1,16 @@
+{"Sorceress" : {
+        "class_name": "Sorceress",
+        "starting_strength": 10,
+        "starting_dexterity": 25,
+        "starting_vitality": 10,
+        "starting_energy": 35,
+        "starting_life": 40,
+        "starting_mana": 35,
+        "starting_stamina": 74,
+        "life_per_level": 1,
+        "mana_per_level": 2,
+        "stamina_per_level": 1,
+        "life_per_vitality": 2,
+        "stamina_per_vitality": 1,
+        "mana_per_energy": 2
+    }}

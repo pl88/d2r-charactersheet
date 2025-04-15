@@ -1,0 +1,16 @@
+{"Assassin" : {
+    "class_name": "Assassin",
+    "starting_strength": 20,
+    "starting_dexterity": 20,
+    "starting_vitality": 20,
+    "starting_energy": 25,
+    "starting_life": 50,
+    "starting_mana": 25,
+    "starting_stamina": 95,
+    "life_per_level": 2,
+    "mana_per_level": 1.5,
+    "stamina_per_level": 1.25,
+    "life_per_vitality": 3,
+    "stamina_per_vitality": 1.75,
+    "mana_per_energy": 1.25
+}}

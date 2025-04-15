@@ -1,6 +1,9 @@
 run:
 	docker compose up -d --remove-orphans
 
+stop:
+	docker compose down
+
 docker_build:
 	docker build -t d2r-charactersheet_img .
 

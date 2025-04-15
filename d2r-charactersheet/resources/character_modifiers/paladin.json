@@ -1,0 +1,16 @@
+{     "Paladin" : {
+    "class_name": "Paladin",
+    "starting_strength": 25,
+    "starting_dexterity": 20,
+    "starting_vitality": 25,
+    "starting_energy": 15,
+    "starting_life": 55,
+    "starting_mana": 15,
+    "starting_stamina": 89,
+    "life_per_level": 2,
+    "mana_per_level": 1.5,
+    "stamina_per_level": 1,
+    "life_per_vitality": 3,
+    "stamina_per_vitality": 1,
+    "mana_per_energy": 1.5
+}}
