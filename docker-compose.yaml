@@ -1,0 +1,26 @@
+services:
+  d2r-charactersheet:
+    ports:
+      - "8000:8000"
+    image: d2r-charactersheet_img
+    container_name: d2r-charactersheet
+    restart: no
+    volumes:
+      - ./d2r-charactersheet/src:/d2r-charactersheet/d2r-charactersheet
+    command: uvicorn d2r-charactersheet.main:app --host 0.0.0 --port 8000
+  db:
+    image: postgres:latest
+    container_name: d2r-charactersheet_db
+    restart: no
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: d2r-charactersheet
+    ports:
+      - "5432:5432"
+  adminer:
+    image: adminer
+    container_name: d2r-charactersheet_adminer
+    restart: no
+    ports:
+      - "8080:8080"
